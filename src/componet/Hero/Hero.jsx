@@ -20,7 +20,7 @@ const Hero = () => {
             Watch video
           </a>
               </div>
-              <img src="./assets/hero.png" alt="" className="hero__img" />
+              <img src="@/assets/hero.png" alt="" className="hero__img" />
       </div>
     </section>
   );
