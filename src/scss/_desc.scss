@@ -1,0 +1,44 @@
+.desc {
+  padding-top: 120px;
+  .container {
+    display: flex;
+    img {
+    }
+  }
+
+  .desc__wrap {
+    max-width: 582px;
+  }
+
+  .desc-title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  .desc-text {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .desc-link {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 4px;
+    background: var(
+      --Gardient,
+      linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+    );
+  }
+  &.text-right {
+    .container {
+      flex-direction: row-reverse;
+    }
+  }
+}

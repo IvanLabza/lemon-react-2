@@ -1,0 +1,22 @@
+@import "./scss/_reset";
+@import "./scss/header";
+@import "./scss/hero";
+@import "./scss/servise";
+@import "./scss/desc";
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url(./assets/bg.png);
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
