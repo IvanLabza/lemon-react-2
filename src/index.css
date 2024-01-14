@@ -131,6 +131,7 @@ svg {
   font-family: DM Sans;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 30px;
 }
 .servise__text {
   margin: 0 auto;
@@ -145,6 +146,7 @@ svg {
   text-align: center;
 }
 .servise__list {
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,6 +175,7 @@ svg {
   font-family: DM Sans;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 17px;
 }
 .servise__list-item p {
   color: #fff;
@@ -181,6 +184,7 @@ svg {
   font-weight: 400;
   line-height: 26px;
   text-align: left;
+  margin-bottom: 24px;
 }
 .servise__list-item a span {
   color: #fff;
@@ -206,6 +210,7 @@ svg {
   font-family: DM Sans;
   font-size: 42px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 .desc .desc-text {
   color: #fff;
@@ -213,6 +218,7 @@ svg {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  margin-bottom: 30px;
 }
 .desc .desc-link {
   color: #fff;
@@ -234,12 +240,13 @@ svg {
 .team {
   padding-top: 107px;
 }
-.team .team__tile {
+.team .team__title {
   color: #fff;
   font-family: DM Sans;
   font-size: 42px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 30px;
 }
 .team .team__text {
   color: #fff;
@@ -252,6 +259,7 @@ svg {
   margin: 0 auto;
 }
 .team .team__list {
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,6 +296,191 @@ svg {
   font-weight: 400;
   letter-spacing: 0.48px;
   text-transform: uppercase;
+}
+
+.wrapper-form .form {
+  padding-top: 120px;
+}
+.wrapper-form .form .container {
+  border-radius: 34px;
+  border: 1px solid var(--Stoke, rgba(255, 255, 255, 0.08));
+  background: var(--Bg, linear-gradient(180deg, rgba(254, 254, 255, 0.01) 0%, rgba(255, 255, 255, 0.02) 100%));
+  -webkit-box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
+  padding-top: 50px;
+  padding-bottom: 38px;
+}
+.wrapper-form .form .form__title {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.wrapper-form .form .form__text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 29px;
+}
+.wrapper-form .form .form__label {
+  position: relative;
+}
+.wrapper-form .form .form__label input {
+  border-radius: 70px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 254, 255, 0.03)), to(rgba(255, 255, 255, 0.05)));
+  background: linear-gradient(180deg, rgba(254, 254, 255, 0.03) 0%, rgba(255, 255, 255, 0.05) 100%);
+  -webkit-box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+          box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+  padding: 25px 0 25px 44px;
+  border: transparent;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.wrapper-form .form .form__label input ::-webkit-input-placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.wrapper-form .form .form__label input ::-moz-placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.wrapper-form .form .form__label input :-ms-input-placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.wrapper-form .form .form__label input ::-ms-input-placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.wrapper-form .form .form__label input ::placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.wrapper-form .form .form__label button {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  border-radius: 70px;
+  opacity: 0.9;
+  background: var(--Gardient, linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%));
+  display: inline-block;
+  padding: 15px 49px;
+  border: transparent;
+  position: absolute;
+  top: 10px;
+  right: 152px;
+}
+
+.nav {
+  padding-top: 109px;
+}
+.nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.nav .address .address__logo {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.nav .address .address__location {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.nav .address .address__tel {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.nav .address .address__mail {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.nav .servis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+}
+.nav .servis .servis__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.nav .servis .servis__list li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.18px;
 }
 
 .container {

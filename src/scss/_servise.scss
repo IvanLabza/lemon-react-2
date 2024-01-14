@@ -7,6 +7,7 @@
     font-family: DM Sans;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 30px;
   }
   &__text {
     margin: 0 auto;
@@ -21,6 +22,7 @@
     text-align: center;
   }
   &__list {
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,6 +46,7 @@
         font-family: DM Sans;
         font-size: 24px;
         font-weight: 500;
+        margin-bottom: 17px;
       }
       p {
         color: #fff;
@@ -52,6 +55,7 @@
         font-weight: 400;
         line-height: 26px;
         text-align: left;
+        margin-bottom: 24px;
       }
       a {
         span {

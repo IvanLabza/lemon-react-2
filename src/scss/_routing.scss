@@ -1,0 +1,64 @@
+.nav {
+  padding-top: 109px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    .address__logo {
+      color: #fff;
+      font-family: Rubik;
+      font-size: 20px;
+      font-weight: 500;
+      font-style: normal;
+    }
+    .address__location {
+      color: rgba(255, 255, 255, 0.8);
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+    }
+    .address__list {
+    }
+    .address__tel {
+      color: rgba(255, 255, 255, 0.8);
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+    }
+    .address__mail {
+      color: rgba(255, 255, 255, 0.8);
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+    }
+  }
+  .servis {
+    display: flex;
+    gap: 55px;
+    .servis__list {
+      display: flex;
+      flex-direction: column;
+
+      li {
+        a {
+          color: rgba(255, 255, 255, 0.8);
+          font-family: DM Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 40px;
+          letter-spacing: 0.18px;
+        }
+      }
+    }
+  }
+}
