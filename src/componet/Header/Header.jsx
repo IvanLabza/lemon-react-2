@@ -1,18 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import HeaderList from "./HeaderList/HeaderList";
+import logo from "../../assets/logo.svg";
+import open from "../../assets/symbol-defs.svg#paragraph-left";
+import close from "../../assets/symbol-defs.svg#cross";
 
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <header className="header">
       <div className="container">
         <nav>
           <a href="#" className="header__logo">
-            <svg width="34.251" height="34.251px">
-              <use href=".../assets/icon.svg#Standard-Collection-13"></use>
-            </svg>
+            <img width="34" height="34" src={logo} alt="" />
             Zone.
           </a>
+          <button onClick={handleToggle}>
+            <img src={open} alt="" />
+          </button>
           <div className="wrap">
             <HeaderList></HeaderList>
             <a href="" className="header__link">

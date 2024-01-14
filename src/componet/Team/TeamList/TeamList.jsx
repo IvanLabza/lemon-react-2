@@ -1,9 +1,17 @@
 import React from 'react'
+import team_1 from "./../../../assets/team_1.png";
+import team_2 from "./../../../assets/team_2.png";
+import team_3 from "./../../../assets/team_3.png";
+import team_4 from "./../../../assets/team_4.png";
+import tw from "./../../../assets/twitter.png";
+import id from "./../../../assets/linkedin.png";
+import fb from "./../../../assets/Frame.png";
+import sc from "./../../../assets/skype.png";
 
 const TeamList = () => {
     const teamArr = [
       {
-        img: "",
+        img: team_1,
         title: "Sunny Khan",
         text: "Executive officer",
         soc: {
@@ -14,7 +22,7 @@ const TeamList = () => {
         },
       },
       {
-        img: "",
+        img: team_2,
         title: "Alina Jesia",
         text: "UX/UI DESIGNER",
         soc: {
@@ -25,7 +33,7 @@ const TeamList = () => {
         },
       },
       {
-        img: "",
+        img: team_3,
         title: "Alex Sohag",
         text: "BUSINESS DEVELOPMENT",
         soc: {
@@ -36,7 +44,7 @@ const TeamList = () => {
         },
       },
       {
-        img: "",
+        img: team_4,
         title: "Afroza Mou",
         text: "Head of marketing",
         soc: {
@@ -56,16 +64,16 @@ const TeamList = () => {
           <p>{item.text}</p>
           <ul>
             <li>
-              <img src="" alt="" />
+              <img src={sc} alt="" />
             </li>
             <li>
-              <img src="" alt="" />
+              <img src={id} alt="" />
             </li>
             <li>
-              <img src="" alt="" />
+              <img src={tw} alt="" />
             </li>
             <li>
-              <img src="" alt="" />
+              <img src={fb} alt="" />
             </li>
           </ul>
         </li>

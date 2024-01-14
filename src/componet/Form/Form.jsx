@@ -10,13 +10,16 @@ const Form = () => {
             We recommended you to subscribe to our newspaper,drop your email
             below to get daily update about us
           </p>
-          <label className="form__label">
-            <input type="text" placeholder="Enter your email addres" />
-            <button type="submit">
-              Subscribe
-              <img src="" alt="" />
-            </button>
-          </label>
+
+          <div className="form__wrap">
+            <label className="form__label">
+              <input type="text" placeholder="Enter your email addres" />
+              <button type="submit">
+                Subscribe
+                <img src="" alt="" />
+              </button>
+            </label>
+          </div>
         </div>
       </form>
     </div>

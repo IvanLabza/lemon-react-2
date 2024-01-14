@@ -35,9 +35,15 @@
       margin: 0 auto;
       margin-bottom: 29px;
     }
+    .form__wrap{
+      margin: 0 auto;
+      width: 75%;
+    }
 
     .form__label {
       position: relative;
+      display: block;
+      width: 100%;
       input {
         border-radius: 70px;
         background: linear-gradient(
@@ -48,7 +54,7 @@
         box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
         padding: 25px 0 25px 44px;
         border: transparent;
-        width: 75%;
+        width: 100%;
         display: block;
         margin: 0 auto;
         color: #fff;
@@ -83,7 +89,7 @@
         border: transparent;
         position: absolute;
         top: 10px;
-        right: 152px;
+        right: 10px;
       }
     }
   }

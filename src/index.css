@@ -20,6 +20,14 @@ p {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
 button, a {
   cursor: pointer;
   margin: 0;
@@ -32,12 +40,22 @@ svg {
 
 .header {
   padding: 40px 0;
-  padding-bottom: 108px;
+  padding-bottom: 0px;
 }
 .header__logo {
   color: #fff;
   font-size: 20px;
   font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7.75px;
 }
 .header__link {
   color: #f9fafb;
@@ -84,8 +102,27 @@ svg {
 .hero {
   padding-bottom: 127px;
 }
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .hero .hero__wrap {
   max-width: 534px;
+}
+.hero .hero__wrap div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .hero .hero__wrap .hero-title {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
@@ -124,6 +161,16 @@ svg {
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 500;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
 }
 .servise__title {
   text-align: center;
@@ -162,13 +209,18 @@ svg {
 }
 .servise__list-item {
   text-align: center;
-  max-width: 350px;
+  max-width: 370px;
+  max-height: 336px;
   border-radius: 34px;
   border: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
   background: linear-gradient(268deg, rgba(254, 254, 255, 0.03) -11.04%, rgba(255, 255, 255, 0.02) 104.89%);
   -webkit-box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
   padding: 32px 23px;
+}
+.servise__list-item img {
+  margin: 0 auto;
+  margin-bottom: 19px;
 }
 .servise__list-item h2 {
   color: #fff;
@@ -186,12 +238,26 @@ svg {
   text-align: left;
   margin-bottom: 24px;
 }
+.servise__list-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .servise__list-item a span {
   color: #fff;
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+.servise__list-item a img {
+  margin: 0;
 }
 
 .desc {
@@ -201,6 +267,12 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .desc .desc__wrap {
   max-width: 582px;
@@ -270,32 +342,52 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .team .team__list .team__list-item {
+  max-height: 275px;
   border-radius: 34px;
   border: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
   background: linear-gradient(268deg, rgba(254, 254, 255, 0.03) -11.04%, rgba(255, 255, 255, 0.02) 104.89%);
   max-width: 270px;
   display: block;
-  padding: 32px 75px;
+  padding: 32px 55px;
   -webkit-box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
+.team .team__list .team__list-item img {
+  margin: 0 auto;
+}
 .team .team__list .team__list-item h3 {
   color: #fff;
   font-family: DM Sans;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 500;
   text-wrap: none;
+  margin-bottom: 7px;
 }
 .team .team__list .team__list-item p {
   color: #fff;
   font-family: DM Sans;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.48px;
   text-transform: uppercase;
+}
+.team .team__list .team__list-item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  margin-top: 11px;
 }
 
 .wrapper-form .form {
@@ -329,8 +421,14 @@ svg {
   margin: 0 auto;
   margin-bottom: 29px;
 }
+.wrapper-form .form .form__wrap {
+  margin: 0 auto;
+  width: 75%;
+}
 .wrapper-form .form .form__label {
   position: relative;
+  display: block;
+  width: 100%;
 }
 .wrapper-form .form .form__label input {
   border-radius: 70px;
@@ -340,7 +438,7 @@ svg {
           box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
   padding: 25px 0 25px 44px;
   border: transparent;
-  width: 75%;
+  width: 100%;
   display: block;
   margin: 0 auto;
   color: #fff;
@@ -404,7 +502,7 @@ svg {
   border: transparent;
   position: absolute;
   top: 10px;
-  right: 152px;
+  right: 10px;
 }
 
 .nav {
@@ -433,6 +531,14 @@ svg {
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7.75px;
+  margin-bottom: 20px;
 }
 .nav .address .address__location {
   color: rgba(255, 255, 255, 0.8);
@@ -441,6 +547,14 @@ svg {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7.75px;
+  margin-bottom: 10px;
 }
 .nav .address .address__tel {
   color: rgba(255, 255, 255, 0.8);
@@ -449,6 +563,13 @@ svg {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7.75px;
 }
 .nav .address .address__mail {
   color: rgba(255, 255, 255, 0.8);
@@ -457,6 +578,14 @@ svg {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7.75px;
+  margin-bottom: 10px;
 }
 .nav .servis {
   display: -webkit-box;
@@ -483,16 +612,53 @@ svg {
   letter-spacing: 0.18px;
 }
 
+.footer {
+  padding: 33px 0;
+}
+.footer p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.footer .container {
+  padding-top: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #969696;
+}
+.footer .footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 53px;
+}
+.footer .footer__list li a {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1170px;
+  max-width: 1200px;
 }
 
 .wrapper {
   max-width: 1920px;
   margin: 0 auto;
   background-image: url(./assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {

@@ -1,4 +1,5 @@
 import Desc from "./componet/Desc/Desc.jsx";
+import Footer from "./componet/Footer/Footer.jsx";
 import Form from "./componet/Form/Form.jsx";
 import Header from "./componet/Header/Header.jsx";
 import Hero from "./componet/Hero/Hero.jsx";
@@ -16,6 +17,7 @@ function App() {
       <Team></Team>
       <Form></Form>
       <Router></Router>
+      <Footer></Footer>
     </div>
   );
 }

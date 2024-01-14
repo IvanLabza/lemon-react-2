@@ -1,4 +1,6 @@
 import React from "react";
+import left from "../../assets/left.png";
+import right from "../../assets/right.png";
 
 const Desc = () => {
   const descList = [
@@ -6,13 +8,13 @@ const Desc = () => {
       title: "We complete every projects extra care as customer need",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. ",
       link: "Read more",
-      img: "#",
+      img: left,
     },
     {
       title: "We complete every projects extra care as customer need",
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. ",
       link: "Read more",
-      img: "#",
+      img: right,
     },
   ];
 

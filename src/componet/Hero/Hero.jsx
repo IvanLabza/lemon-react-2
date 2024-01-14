@@ -1,5 +1,6 @@
 import React from "react";
-
+import hero from "../../assets/hero.png";
+import hero__play from "../../assets/hero__play.png";
 
 const Hero = () => {
   return (
@@ -12,15 +13,17 @@ const Hero = () => {
             have over 15 year exprience in business consultting arena and
             artficial intelligence.
           </p>
-          <a href="" className="hero-link">
-            Join Us
-          </a>
-          <a href="" className="hero-video">
-            <img src="" alt="" />
-            Watch video
-          </a>
-              </div>
-              <img src="@/assets/hero.png" alt="" className="hero__img" />
+          <div>
+            <a href="" className="hero-link">
+              Join Us
+            </a>
+            <a href="" className="hero-video">
+              <img src={hero__play} alt="" />
+              Watch video
+            </a>
+          </div>
+        </div>
+        <img width={600} height={600} src={hero} alt="" className="hero__img" />
       </div>
     </section>
   );

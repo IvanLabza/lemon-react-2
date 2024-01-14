@@ -6,20 +6,53 @@
 @import "./scss/team";
 @import "./scss/form";
 @import "./scss/routing";
+@import "./scss/footer";
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1170px;
+  max-width: 1200px;
 }
 
 .wrapper {
   max-width: 1920px;
   margin: 0 auto;
   background-image: url(./assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
   font-family: "DM Sans", sans-serif;
   font-family: "Rubik", sans-serif;
+}
+
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+@mixin desktop-small {
+  @media (max-width: $desktop-small) {
+    @content;
+  }
+}
+
+@mixin tablet-small {
+  @media (max-width: $tablet-small) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
 }

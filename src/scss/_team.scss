@@ -27,7 +27,9 @@
     gap: 30px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     .team__list-item {
+      max-height: 275px;
       border-radius: 34px;
       border: 1px solid var(--Bg-2, rgba(255, 255, 255, 0.08));
       background: linear-gradient(
@@ -37,23 +39,34 @@
       );
       max-width: 270px;
       display: block;
-      padding: 32px 75px;
+      padding: 32px 55px;
       box-shadow: 0px 22px 18px 0px rgba(0, 0, 0, 0.05);
       text-align: center;
+      img {
+        margin: 0 auto;
+      }
       h3 {
         color: #fff;
         font-family: DM Sans;
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 500;
         text-wrap: none;
+        margin-bottom: 7px;
       }
       p {
         color: #fff;
         font-family: DM Sans;
-        font-size: 11px;
+        font-size: 12px;
         font-weight: 400;
         letter-spacing: 0.48px;
         text-transform: uppercase;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin-top: 11px;
       }
     }
   }

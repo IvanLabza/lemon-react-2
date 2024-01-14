@@ -1,9 +1,18 @@
 .hero {
   padding-bottom: 127px;
   .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .hero__wrap {
     max-width: 534px;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
     .hero-title {
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
       font-family: DM Sans;
@@ -47,6 +56,10 @@
       font-family: DM Sans;
       font-size: 16px;
       font-weight: 500;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
     }
   }
   .hero__img {
