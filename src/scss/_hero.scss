@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include tab {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
   .hero__wrap {
     max-width: 534px;
@@ -65,3 +69,6 @@
   .hero__img {
   }
 }
+
+
+

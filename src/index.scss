@@ -28,31 +28,27 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-$desktop-small: 1200px;
-$tablet: 992px;
-$tablet-small: 768px;
-$mobile: 576px;
 
 @mixin desktop-small {
-  @media (max-width: $desktop-small) {
+  @media (max-width: 1200px) {
     @content;
   }
 }
 
-@mixin tablet-small {
-  @media (max-width: $tablet-small) {
+@mixin tab-small {
+  @media (max-width: 786px) {
     @content;
   }
 }
 
-@mixin tablet {
-  @media (max-width: $tablet) {
+@mixin tab {
+  @media (max-width: 1000px) {
     @content;
   }
 }
 
 @mixin mobile {
-  @media (max-width: $mobile) {
+  @media (max-width: 576px) {
     @content;
   }
 }
