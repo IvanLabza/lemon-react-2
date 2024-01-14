@@ -1,10 +1,13 @@
 .hero {
   padding-bottom: 127px;
+  @include tab {
+    padding-top: 50px;
+  }
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include tab {
+    @include tab() {
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -31,6 +34,9 @@
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      @include tel{
+        font-size: 48px;
+      }
     }
     .hero-text {
       color: #e5e7eb;
@@ -54,6 +60,9 @@
         linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
       );
       margin-right: 29px;
+      @include tel {
+        padding: 15px 30px;
+      }
     }
     .hero-video {
       color: #f9fafb;
@@ -69,6 +78,3 @@
   .hero__img {
   }
 }
-
-
-

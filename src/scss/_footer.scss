@@ -1,5 +1,6 @@
 .footer {
   padding: 33px 0;
+
   p {
     color: rgba(255, 255, 255, 0.8);
     font-family: Rubik;
@@ -12,6 +13,14 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #969696;
+    @include tel {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
   }
   .footer__list {
     display: flex;

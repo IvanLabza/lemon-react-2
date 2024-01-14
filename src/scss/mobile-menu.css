@@ -1,0 +1,43 @@
+@media screen and (max-width: 980px) {
+  .wrap {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background-color: var(--write-title);
+    z-index: 20;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+    background-color: #111827;
+    padding-top: 106px;
+    padding-left: 36px;
+    
+  }
+  .is-open {
+    visibility: visible;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+    overflow: scroll;
+  }
+  .wrap.is-open {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+    -webkit-transition: visibility 250ms ease-in-out,
+      -webkit-transform 250ms ease-in-out;
+    transition: visibility 250ms ease-in-out,
+      -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, visibility 250ms ease-in-out,
+      -webkit-transform 250ms ease-in-out;
+  }
+}

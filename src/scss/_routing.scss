@@ -3,10 +3,18 @@
   .container {
     display: flex;
     justify-content: space-between;
+    @include tab-small {
+      justify-content: center;
+      align-items: center;
+    }
   }
   .address {
     display: flex;
     flex-direction: column;
+    @include tab-small {
+      justify-content: center;
+      align-items: center;
+    }
     .address__logo {
       color: #fff;
       font-family: Rubik;
@@ -59,9 +67,15 @@
   .servis {
     display: flex;
     gap: 55px;
+    @include tab{
+      gap: 10px;
+    }
     .servis__list {
       display: flex;
       flex-direction: column;
+      @include tab-small {
+        display: none;
+      }
 
       li {
         a {

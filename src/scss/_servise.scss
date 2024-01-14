@@ -39,6 +39,9 @@
         rgba(254, 254, 255, 0.03) -11.04%,
         rgba(255, 255, 255, 0.02) 104.89%
       );
+      @include tel{
+        max-height: 405px;
+      }
 
       img {
         margin: 0 auto;

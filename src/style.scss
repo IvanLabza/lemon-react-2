@@ -1,12 +1,3 @@
-@import "./scss/_reset";
-@import "./scss/header";
-@import "./scss/hero";
-@import "./scss/servise";
-@import "./scss/desc";
-@import "./scss/team";
-@import "./scss/form";
-@import "./scss/routing";
-@import "./scss/footer";
 
 .container {
   margin: 0 auto;
@@ -36,7 +27,7 @@ body {
 }
 
 @mixin tab-small {
-  @media (max-width: 786px) {
+  @media (max-width: 850px) {
     @content;
   }
 }
@@ -47,8 +38,18 @@ body {
   }
 }
 
-@mixin mobile {
+@mixin tel {
   @media (max-width: 576px) {
     @content;
   }
 }
+
+@import "./scss/_reset";
+@import "./scss/header";
+@import "./scss/hero";
+@import "./scss/servise";
+@import "./scss/desc";
+@import "./scss/team";
+@import "./scss/form";
+@import "./scss/routing";
+@import "./scss/footer";
