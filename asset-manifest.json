@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lemon-react-2/static/css/main.14b90eab.css",
+    "main.css": "/lemon-react-2/static/css/main.0deb9ffa.css",
     "main.js": "/lemon-react-2/static/js/main.28cf6837.js",
     "static/js/787.c3f3951e.chunk.js": "/lemon-react-2/static/js/787.c3f3951e.chunk.js",
     "static/media/bg.png": "/lemon-react-2/static/media/bg.4ee003aac9e130d2fb33.png",
@@ -14,12 +14,12 @@
     "static/media/team_4.png": "/lemon-react-2/static/media/team_4.4fc16e51e880c4a9acc5.png",
     "index.html": "/lemon-react-2/index.html",
     "static/media/Message.svg": "/lemon-react-2/static/media/Message.2c85d26b16fa171c09bf20baeac950dc.svg",
-    "main.14b90eab.css.map": "/lemon-react-2/static/css/main.14b90eab.css.map",
+    "main.0deb9ffa.css.map": "/lemon-react-2/static/css/main.0deb9ffa.css.map",
     "main.28cf6837.js.map": "/lemon-react-2/static/js/main.28cf6837.js.map",
     "787.c3f3951e.chunk.js.map": "/lemon-react-2/static/js/787.c3f3951e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14b90eab.css",
+    "static/css/main.0deb9ffa.css",
     "static/js/main.28cf6837.js"
   ]
 }
